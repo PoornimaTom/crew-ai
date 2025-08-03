@@ -2,7 +2,6 @@
 import sys
 import warnings
 import os
-
 from datetime import datetime
 
 from engineering_crew.crew import EngineeringCrew
@@ -39,9 +38,9 @@ The system should be able to handle audio files with different audio codecs.
 The system should be able to handle audio files with different audio formats.
 The system should be able to handle audio files with different audio qualities.
 """
+
 module_name = "audio_surveillance.py"
 class_name = "AudioSurveillance"
-
 
 def run():
     """
@@ -52,7 +51,6 @@ def run():
         'module_name': module_name,
         'class_name': class_name
     }
-    
     # Initialize the EngineeringCrew and kickoff the crew
     result = EngineeringCrew().crew().kickoff(inputs=inputs)
 
