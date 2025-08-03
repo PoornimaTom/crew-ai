@@ -1,4 +1,4 @@
-# EngineeringCrew Crew
+# EngineeringCrew
 
 ## Project Overview
 
