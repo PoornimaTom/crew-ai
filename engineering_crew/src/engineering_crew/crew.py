@@ -9,7 +9,6 @@ from typing import List
 @CrewBase
 class EngineeringCrew():
     """EngineeringCrew crew"""
-
     agents: List[BaseAgent]
     tasks: List[Task]
 
