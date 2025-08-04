@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-EngineeringCrew Crew is a template for building multi-agent AI systems using [crewAI](https://docs.crewai.com/en/installation). This project orchestrates a team of specialized AI agents—such as architects, backend engineers, frontend engineers, and QA engineers—to collaboratively solve complex engineering tasks. Each agent is configurable and can be assigned specific roles, tools, and goals, allowing for flexible automation and intelligent task execution.
+EngineeringCrew is a starter template for building multi-agent AI workflows using [crewAI](https://docs.crewai.com/en/installation). It enables you to orchestrate a team of configurable AI agents—such as architects, backend engineers, frontend engineers, and QA engineers—to collaboratively tackle engineering tasks. Each agent’s behavior, tools, and goals are defined in YAML files, making it easy to customize roles and task flows. The system supports extensibility, allowing you to add new agents, integrate custom logic, and automate complex engineering processes with minimal setup.
 
 The system is designed for extensibility, making it easy to add new agents, tasks, and custom logic. You can define agent behaviors and task flows using YAML configuration files, and leverage crewAI's orchestration features to maximize productivity and collaboration.
 
